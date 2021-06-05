@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.nestedrecycler.R
 import com.example.nestedrecycler.data.ChildModel
+import com.example.nestedrecycler.util.imageLoader
 import kotlinx.android.synthetic.main.child_recycler.view.*
 
 class ChildAdapter(private val children : List<ChildModel>)
@@ -32,17 +33,7 @@ class ChildAdapter(private val children : List<ChildModel>)
     override fun onBindViewHolder(holder: ViewHolder,
                                   position: Int) {
         val child = children[position]
-
-        context?.let {
-            Glide.with(it)
-
-                .load(child.image)
-                .placeholder(R.drawable.movie)
-                .error(R.drawable.error)
-                .into( holder.imageView)
-        }
-
-//        holder.imageView.setImageResource(child.image)
+        context?.let { imageLoader(child.image,holder.imageView, it) }
         holder.textView.text = child.title
     }
 
