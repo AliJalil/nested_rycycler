@@ -10,7 +10,7 @@ object ChildDataFactory {
     val children = mutableListOf<ChildModel>(
         ChildModel(
             "Aviator",
-            "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/896fa73f5155d71480379a4cb183d575c99b62de56d2ae85c6adbeafc0a6a4bf._RI_V_TTW_.jpg"
+            "https://upload.wikimedia.org/wikipedia/en/f/fa/The_Aviator_%282004%29.png"
         ),
         ChildModel(
             "Now you can See me",
@@ -26,18 +26,18 @@ object ChildDataFactory {
         ),
         ChildModel(
             "3 idiots",
-            "https://m.media-amazon.com/images/M/MV5BNjRlZmM0ODktY2RjNS00ZDdjLWJhZGYtNDljNWZkMGM5MTg0XkEyXkFqcGdeQXVyNjAwMjI5MDk@._V1_.jpg"
+            "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
         ),
         ChildModel(
             "pk",
-            "https://i.insider.com/5d1b8c0921a86101397d9f74?width=600&format=jpeg&auto=webp"
+            "https://m.media-amazon.com/images/M/MV5BMTYzOTE2NjkxN15BMl5BanBnXkFtZTgwMDgzMTg0MzE@._V1_.jpg"
         ),
-        ChildModel("Rock of ages", "https://bestsimilar.com/img/movie/thumb/83/4612.jpg"),
+        ChildModel("Rock of ages", "https://musicart.xboxlive.com/7/da411100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080"),
         ChildModel(
             "Zootopia",
-            "https://tech4gamers.com/wp-content/uploads/2015/03/maxresdefault.jpg"
+            "https://images.moviesanywhere.com/cac313fcf9373e9446b6bb8ff171b8d1/8b8d6a81-b8e6-49ad-b835-32c2f01a03c5.jpg"
         ),
-        ChildModel("The Nut Job", "https://i.ebayimg.com/images/g/ugwAAOSwrWBeUneX/s-l600.jpg"),
+        ChildModel("The Nut Job", "https://images-na.ssl-images-amazon.com/images/I/81pBQmQozhL._SL1500_.jpg"),
 
         )
 
